@@ -1,0 +1,24 @@
+INVOICE
+
+Vendor: Acme Corp
+GSTIN: 29ABCDE1234F1Z5
+Address: 123 Main St, Bangalore
+
+Invoice Number: INV-2026-001
+Invoice Date: 2026-01-15
+Due Date: 2026-02-15
+
+Bill To:
+Buyer Inc
+GSTIN: 07XYZAB5678C1D2
+
+| Description | HSN  | Qty | Unit | Unit Price | Amount   |
+|-------------|------|-----|------|------------|----------|
+| Widget A    | 8471 | 10  | pcs  | 100.00     | 1000.00  |
+| Widget B    | 8472 | 5   | pcs  | 36.00      | 180.00   |
+
+Subtotal: 1180.00
+CGST @9%: 106.20
+SGST @9%: 106.20
+Total: 1392.40
+Currency: INR

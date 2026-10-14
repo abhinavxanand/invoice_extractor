@@ -1,0 +1,32 @@
+{
+    "vendor": {"name": "Acme Corp", "tax_id": "29ABCDE1234F1Z5", "address": "123 Main St"},
+    "buyer": {"name": "Buyer Inc"},
+    "invoice_number": "INV-2026-001",
+    "invoice_date": "2026-01-15",
+    "due_date": "2026-02-15",
+    "currency": "INR",
+    "line_items": [
+        {
+            "description": "Widget A",
+            "hsn_sac": "8471",
+            "quantity": "10",
+            "unit": "pcs",
+            "unit_price": "100.00",
+            "amount": "1000.00"
+        },
+        {
+            "description": "Widget B",
+            "hsn_sac": "8472",
+            "quantity": "5",
+            "unit": "pcs",
+            "unit_price": "36.00",
+            "amount": "180.00"
+        }
+    ],
+    "subtotal": "1180.00",
+    "tax_lines": [
+        {"name": "CGST", "rate_percent": "9", "amount": "106.20"},
+        {"name": "SGST", "rate_percent": "9", "amount": "106.20"}
+    ],
+    "total": "1392.40"
+}

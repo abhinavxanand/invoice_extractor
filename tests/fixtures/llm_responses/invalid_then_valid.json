@@ -1,0 +1,9 @@
+[
+    {"vendor": {"name": 12345}, "invoice_number": "BAD", "total": "not-a-number", "line_items": "bad"},
+    {
+        "vendor": {"name": "Acme Corp"},
+        "invoice_number": "INV-RETRY-001",
+        "line_items": [],
+        "total": "500.00"
+    }
+]
